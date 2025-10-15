@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import DoctorCard from '../components/DoctorCard';
+import DoctorCard from '@/app/components/DoctorCard';
 
 export default function DoctorsPage() {
   const [doctors, setDoctors] = useState([]);

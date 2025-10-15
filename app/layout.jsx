@@ -1,6 +1,6 @@
 import './globals.css';
-import { AuthProvider } from './context/AuthContext';
-import Navbar from './components/Navbar';
+import { AuthProvider } from '@/app/context/AuthContext';
+import Navbar from '@/app/components/Navbar';
 
 export const metadata = {
   title: 'Medical App',

@@ -1,7 +1,7 @@
-import { connectToDB } from '../../lib/mongodb';
-import Prescription from '../../models/Prescription';
-import Appointment from '../../models/Appointments';
-import User from '../../models/User';
+import { connectToDB } from '@/app/lib/mongodb';
+import Prescription from '@/app/models/Prescription';
+import Appointment from '@/app/models/Appointments';
+import User from '@/app/models/User';
 
 export async function GET(req) {
   try {

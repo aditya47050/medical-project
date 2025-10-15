@@ -1,5 +1,5 @@
-import { connectToDB } from '../../lib/mongodb';
-import Doctor from '../../models/User'; // users are stored in User model
+import { connectToDB } from '@/app/lib/mongodb';
+import Doctor from '@/app/models/User'; // users are stored in User model
 
 export async function GET(req) {
   try {

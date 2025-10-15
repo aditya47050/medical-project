@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import { useAuth } from './context/AuthContext';
+import { useAuth } from '@/app/context/AuthContext';
 import { Calendar, User, FileText, Stethoscope } from 'lucide-react';
 
 export default function DashboardPage() {

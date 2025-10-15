@@ -1,5 +1,5 @@
-import { connectToDB } from '../../lib/mongodb';
-import Appointment from '../../models/Appointments';
+import { connectToDB } from '@/app/lib/mongodb';
+import Appointment from '@/app/models/Appointments';
 
 export async function GET(req) {
   try {
